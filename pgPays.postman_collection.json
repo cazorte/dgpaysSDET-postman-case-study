@@ -81,21 +81,6 @@
 				}
 			],
 			"request": {
-				"auth": {
-					"type": "apikey",
-					"apikey": [
-						{
-							"key": "value",
-							"value": "PMAK-6481db845a70ad244e30225e-c6aeefb5ca122cd595bf39fbc9297cf898",
-							"type": "string"
-						},
-						{
-							"key": "key",
-							"value": "x-api-key",
-							"type": "string"
-						}
-					]
-				},
 				"method": "POST",
 				"header": [],
 				"body": {
