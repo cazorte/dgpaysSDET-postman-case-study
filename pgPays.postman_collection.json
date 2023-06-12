@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "0b5c924f-b33e-4cc4-9242-9946a86e7854",
+		"_postman_id": "a0962d30-a8fa-4028-b2ca-81dbbcb25b03",
 		"name": "pgPays",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -433,10 +433,6 @@
 		{
 			"key": "url",
 			"value": "https://b42b12e0-722b-4139-bd4b-285429e4e675.mock.pstmn.io"
-		},
-		{
-			"key": "url",
-			"value": ""
 		},
 		{
 			"key": "randomInteger",
