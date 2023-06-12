@@ -38,9 +38,10 @@
 							"pm.collectionVariables.set(\"randomInteger\", randomInteger3_5);\r",
 							"//console.log(randomInteger3_5)\r",
 							"\r",
-							"var date = pm.variables.replaceIn(\"{{$randomCity}}\");\r",
-							"pm.collectionVariables.set(\"randomDate\", date);\r",
-							"//console.log(date)\r",
+							"const moment = require('moment')\r",
+							"let futureDate = pm.variables.replaceIn('{{$randomDateFuture}}'),\r",
+							"futureDates = moment(futureDate).format()\r",
+							"console.log(futureDates)\r",
 							"\r",
 							""
 						],
